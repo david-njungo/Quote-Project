@@ -1,13 +1,49 @@
 <div class="container-fluid">
-<div class="row text-center py-4">
-    <div class="col ">
-        <i class="bi bi-star-fill"></i>
+    <div class="row text-center py-4">
+        <div class="col ">
+            <i class="bi bi-star-fill"></i>
+        </div>
+        <div class="col">
+            <i class="bi bi-star-fill"></i>
+        </div>
+        <div class="col">
+            <i class="bi bi-star-fill"></i>
+        </div>
     </div>
-    <div class="col">
-        <i class="bi bi-star-fill"></i>
-    </div>
-    <div class="col">
-        <i class="bi bi-star-fill"></i>
+    <div class="row">
+        <div class="col-2"></div>
+        <div class="col text-center">
+            <h1 class="fw-bold ">{{title}}</h1>
+            <h4 class="display-2">Inspire to be inspired</h4>
+            <p class="display-6">
+                You only live once, but<br>
+                if you do it right, once <br>
+                is enough
+            </p>
+        </div>
     </div>
 </div>
-</div>
+
+<!-- import { HighlightDirective } from './highlight.directive';
+
+describe('HighlightDirective', () => {
+  it('should create an instance', () => {
+    const directive = new HighlightDirective();
+    expect(directive).toBeTruthy();
+  });
+});
+import { Directive,ElementRef } from '@angular/core';
+
+@Directive({
+  selector: '[appHighlight]'
+})
+export class HighlightDirective {
+
+  constructor(private elem:ElementRef) {
+      if(elem.nativeElement.classList.length > 2) {
+        elem.nativeElement.style.backgroundColor = "#D4E6F1";
+      }
+    
+   }
+
+} -->
